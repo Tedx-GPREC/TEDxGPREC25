@@ -274,7 +274,7 @@ body, html {
   font-family: 'Segoe UI', sans-serif;
   color: white;
   overflow-x: hidden;
-  display:none;/*removine*/
+  
 }
 
 .timeline-title {
