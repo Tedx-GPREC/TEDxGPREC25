@@ -601,13 +601,8 @@ body, html {
 /* ===============================
    RESPONSIVE DESIGN
 ================================= */
-@media screen and (max-width: 1024px),
-       screen and (max-width: 768px),
-       screen and (max-width: 600px),
-       screen and (max-width: 500px),
-       screen and (max-height: 700px),
-       screen and (max-width: 720px) and (orientation: landscape) {
-
+@media screen and (max-width: 768px)
+       {
   .nav-container {
     width: 92%;
     margin-left: 4%;
