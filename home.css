@@ -883,6 +883,7 @@ circle.progress {
   padding: 20px;
   max-width: 100%;
   scroll-behavior: smooth; 
+  justify-content:center;
   /* Hide scrollbars */
   scrollbar-width: none;     /* Firefox */
 }
@@ -982,6 +983,18 @@ circle.progress {
   from { opacity: 0; transform: translateY(50px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+
+@media screen and (max-width: 1280px),
+       screen and (max-width: 1024px),
+       screen and (max-width: 768px),
+       screen and (max-width: 600px),
+       screen and (max-width: 500px),
+       screen and (max-height: 700px),
+       screen and (max-width: 720px){
+        .speaker-container{
+          justify-content:flex-start;
+        }
+       }
 .logo-container {
   --logo-width: 200px;
   --logo-height: 100px;
