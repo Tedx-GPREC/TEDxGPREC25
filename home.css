@@ -1220,7 +1220,7 @@ circle.progress {
   }
 }
 .register {
-  background-color: transparent;
+  background-color: red;
   color: white;
   border-radius: 25px;
   width: 200px;
@@ -1235,7 +1235,7 @@ circle.progress {
 
 .register:hover,
 .register:active {
-  background-color: red;
+  background-color: rgb(211, 6, 6);
 }
 
 .register_block {
